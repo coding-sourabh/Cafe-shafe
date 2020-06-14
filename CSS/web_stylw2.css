@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url("../images/signUpImage.jpg");
+    height:100vh;
+    background-size: cover;  /*set background image as full dekstop size*/
+    background-repeat: no;
+    color:white;
+    font-size: 17px;
+    font-family: 'Flamenco', cursive;
+}
+
+.box{
+    width:320px;
+    height: 420px;
+    position: absolute;  /* After making position ansolute then only change top,left etc */
+    top:30%;
+    left:40%;
+    padding:0px;
+    background-color: black;
+    box-sizing: border-box;
+  
+}
+
+.text{
+    margin-left:70px;
+    margin-top:70px;
+}
+
+#avatar{
+    width:130px;
+    position: absolute;
+    top:-20%;
+    right:31%;
+}
+
+#btn1{
+    height:25px;
+    width:150px;
+    border-radius:15px;
+    background-color:rgb(241, 10, 10);
+    color: white;
+}
+#btn1:hover{
+    color:red;
+    background-color: white;
+}
+.forgot a{
+    text-decoration: none;
+    color:white;
+}
+
+.forgot a:hover{
+    color:orangered;
+}
